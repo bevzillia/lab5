@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    display: flex;
+    background: lightgray;
+    /* height: 100vh; */
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.page{
+    background-color: blue;
+    height: 100%;
+    width: 1200px;
+    display: flex;
+    border-radius: 20px;
+}
+
+.sidebar{
+    background-color: brown;
+    height: 100%;
+    width: 25%;
+    border-radius: 20px;
+    padding: 120px 40px;
+    box-sizing: border-box;
+}
+
+
+.sidebar_boxes{
+    background-color: aqua;
+}
+
+.image{
+    height: 180px;
+    width: 220px;
+    background-color: gold;
+}
+
+.photo{
+    height: 180px;
+    width: 180px;
+    border-radius: 70px;
+    background-color: bisque;
+    margin-left: 20px;
+}
+
+.name{
+    height: 80px;
+    background-color: orange;
+    text-align: center;
+    line-height: 80px;
+    font-size: 30px;
+}
+
+.position{
+    height: 34px;
+    width: 150px;
+    background-color: green;
+    border-radius: 17px;
+    margin-left: 35px;
+    text-align: center;
+    line-height: 34px;
+    font-family:Helvetica, sans-serif
+}
+
+.logo{
+    height: 60px;
+}
+
+.personal_info{
+    background-color: pink;
+}
+
+.data{
+    height: 30px;
+}
+
+.big_button{
+height: 60px;
+}
+
+.button{
+    padding-block-end: 10px;
+    box-sizing: border-box;
+    height: 60px;
+    width: 220px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.2s;
+    background-color: blueviolet;
+    border-radius: 25px;
+}
+
+
+.menu{
+    height: 100%;
+    width: 75%;
+    background-color: pink;
+    border-radius: 20px;
+    padding: 10px 40px;
+    box-sizing: border-box;
+}
+
+.info{
+    height: 60px;
+    width: 100%;
+    background-color: lawngreen;
+}
