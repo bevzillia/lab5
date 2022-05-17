@@ -99,8 +99,7 @@ height: 60px;
 }
 
 
-.menu{
-    height: 100%;
+.all_info{
     width: 75%;
     background-color: pink;
     border-radius: 20px;
@@ -108,8 +107,82 @@ height: 60px;
     box-sizing: border-box;
 }
 
+.munu{
+    display: flex;
+}
+
+
+.menu_buttons{
+    height: 36px;
+    padding: 7px 15px 7px 15px;
+    font-family: Helvetica, sans-serif;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: white;
+    text-align: center;
+    border: 0px;
+    margin-top: 10px;
+}
+
 .info{
     height: 60px;
     width: 100%;
     background-color: lawngreen;
+}
+
+.resume_header{
+    font-size: 28px;
+    font-family: Helvetica, sans-serif;
+    margin-top: 40px;
+}
+
+.long_line{
+    height: 5px;
+    width: 60px;
+    border-radius: 2.5px;
+    background-color: blue;
+    margin: 12px;
+    margin-left: 0px;
+}
+
+.short_line{
+    height: 100%;
+    width: 20px;
+    border-radius: 2.5px;
+    background-color: orange;
+}
+
+.resume{
+    height: 200px;
+    width: 100%;
+    font-family: Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+.skills_header{
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.bottom_boxes{
+
+}
+
+.top_row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom_row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill{
+    height: 170px;
+    width: 45%;
+    border-color: #777;
+    border-radius: 10px;
+    background-color: violet;
+    margin-top: 25px;
 }
