@@ -4,36 +4,28 @@
 }
 
 .wrapper{
-    display: flex;
     background: lightgray;
-    /* height: 100vh; */
-    padding: 30px;
-    justify-content: center;
-    align-items: center;
+    min-height: 100vh;
     justify-content: space-around;
+    padding-top: 30px;
+    box-sizing: border-box;
 }
 
 .page{
-    height: 100%;
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     display: flex;
     border-radius: 20px;
     background-color: white;
+    margin: 0 auto;
 }
 
 .sidebar{
     background-color: #f6f6f6;
-    height: 100%;
     width: 300px;
     border-radius: 20px;
     padding: 120px 40px;
     box-sizing: border-box;
-}
-
-.image{
-    height: 180px;
-    width: 220px;
-    background-color: gold;
 }
 
 .photo{
@@ -110,8 +102,8 @@
     cursor: pointer;
     user-select: none;
     transition: 0.2s;
-    background-color: rgb(0, 0, 255);
-    border-radius: 25px;
+    background-color: #1566ca;
+    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -120,13 +112,13 @@
 
 
 .download-button:hover {
-    background-color: rgb(84, 84, 255);
+    background-color: rgb(47, 47, 255)
 }
 
 .download-button_text{
     margin-left: 10px; 
     color: white;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .download-button_icon{
@@ -140,7 +132,7 @@
     flex-grow: 1;
     background-color: white;
     border-radius: 20px;
-    padding: 10px 40px;
+    padding: 20px 40px 40px;
     box-sizing: border-box;
 }
 
@@ -159,7 +151,7 @@
 }
 
 .menu_item:hover {
-    background-color: blue;
+    background-color: #1566ca;
 }
 
 .menu_item > a {
@@ -196,12 +188,6 @@
     margin-top: 10px;
 }
 
-.info{
-    height: 60px;
-    width: 100%;
-    background-color: lawngreen;
-}
-
 .resume_header{
     font-size: 28px;
     font-family: Helvetica, sans-serif;
@@ -226,10 +212,8 @@
 }
 
 .resume{
-    height: 200px;
-    width: 100%;
     font-family: Helvetica, sans-serif;
-    font-size: 19px;
+    font-size: 18px;
     color: gray;
 }
 
@@ -237,6 +221,7 @@
     font-family: Helvetica, sans-serif;
     font-size: 25px;
     color: #555;
+    margin-top: 20px;
 }
 
 .skills-container{
@@ -246,7 +231,6 @@
 }
 
 .skill{
-    height: 200px;
     width: 48%;
     border-radius: 20px;
     margin-top: 25px;
