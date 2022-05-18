@@ -6,65 +6,71 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="wrapper">
         <div class="page">
             <div class="sidebar">
-                        <div class="photo">
-                            <img src="" alt="" style="border-radius: 70px;">
-                        </div>
-                    <div class="sidebar_boxes name">
+                    <div class="photo-container">
+                        <img src="assets/images/woman.jpg" alt=""class="photo">
+                    </div>
+                    <div class=" name">
                         Felecia <b>Brown</b> 
                     </div>
-                    <div class="sidebar_boxes position">
+                    <div class="position">
                         Creative Director
                     </div>
-                    <div class="sidebar_boxes logo">
-                        <div class="none">
-                            <a href=""><i class="fa-brands fa-twitter"></i></i></a>
+                    <div class="social">
+                        <img src="assets/icons/facebook-app-symbol (1).png" alt="" class="social_icon">
+                        <img src="assets/icons/twitter.png" alt="" class="social_icon">
+                        <img src="assets/icons/linked-in-logo-of-two-letters.png" alt="" class="social_icon">
+                    </div>
+                    <div class="contacts_list">
+                        <div class="contact">
+                            <img src="assets/icons/calendar.png" alt="" class="contact_icon">
+                            <p class="contact_text">March 25, 1995</p>
+                        </div> 
+                        <div class="contact">
+                            <img src="assets/icons/locate.png" alt="" class="contact_icon">
+                            <p class="contact_text">San-Francisko, USA</p>
+                        </div> 
+                        <div class="contact">
+                            <img src="assets/icons/envelope.png" alt="" class="contact_icon">
+                            <p class="contact_text">example@mail.com</p>
+                        </div> 
+                        <div class="contact">
+                            <img src="assets/icons/smartphone (1).png" alt="" class="contact_icon">
+                            <p class="contact_text">+ 1(070) 765-4321</p>
+                        </div> 
+                        <div class="contact">
+                            <img src="assets/icons/skype.png" alt="" class="contact_icon">
+                            <p class="contact_text">Felecia_Brown</p>
                         </div>
                     </div>
-                    <div class="sidebar_boxes personal_info">
-                        <div class="data">
-                            sdf
-                        </div>
-                        <div class="data">
-                            asd
-                        </div>                        
-                        <div class="data">
-                            asd
-                        </div>
-                        <div class="data">
-                            asd
-                        </div>
-                        <div class="data">
-                            sfa
-                        </div>
-                    </div>
-                    <div class="sidebar_boxes big_button">
-                        <button class="button">safsd</button>
-                    </div>
+                    <button class="download-button">
+                        <img src="assets/icons/download.png" alt="" class="download-button_icon">
+                        <span class="download-button_text">Download CV</span>
+                    </button>
             </div>
-            <div class="all_info">
-                <div class="menu">
-                    <button class="menu_buttons">
-                        <b>ABOUT</b>  
-                    </button>
-                    <button class="menu_buttons">
-                        <b>RESUME</b>  
-                    </button>
-                    <button class="menu_buttons">
-                        <b>PORTFOLIO</b>   
-                    </button>
-                    <button class="menu_buttons">
-                        <b>BLOG</b>  
-                    </button>
-                    <button class="menu_buttons">
-                        <b>CONTACT</b>  
-                    </button>
-                </div>
+            <main class="main">
+                <ul class="menu">
+                    <li class="menu_item">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="#">Resume</a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="#">Blog</a>
+                    </li>
+                    <li class="menu_item">   
+                        <a href="#">Contact</a>
+                    </li>   
+                </ul>
                 <div class="resume_header">
                     <b>About Me</b>  
                 </div>
@@ -74,32 +80,51 @@
                     </div>
                 </div>
                 <div class="resume">
-                    I`m creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intutive designs. <br> <br>
+                    I`m Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intutive designs. <br> <br>
                     My job is to build your website so thet it is functionaf and user-friendly but at the same time attrictive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your massege and identify in the most creative way. I created web design for many famous brand companies.
                 </div>
                 <div class="skills_header">
                     <b>What I`m Doing</b> 
                 </div>
-                <div class="bottom_boxes">
-                    <div class="top_row">
-                        <div class="skill">
-                            asd
-                        </div>
-                        <div class="skill">
-                            asd
-                        </div>
+                <div class="skills-container">
+                    <div class="skill">   
+                        <img src="assets/icons/sketch.png" alt="" class="skill_image">  
+                        <h6 class="skill_title">
+                            Web Design
+                        </h6>
+                        <p class="skill_text">
+                            The most modern and high-quality design made at a professional level.
+                        </p> 
                     </div>
-                    <div class="bottom_row">
-                        <div class="skill">
-                            asd
-                        </div>
-                        <div class="skill">
-                            asd
-                        </div>
+                    <div class="skill">   
+                        <img src="assets/icons/web-programming.png" alt="" class="skill_image">  
+                        <h6 class="skill_title">
+                            Web Development
+                        </h6>
+                        <p class="skill_text">
+                            high-quality development of sites at the proffessional level.
+                        </p> 
                     </div>
-
+                    <div class="skill">   
+                        <img src="assets/icons/phone-call.png" alt="" class="skill_image">  
+                        <h6 class="skill_title">
+                            Mobile Apps
+                        </h6>
+                        <p class="skill_text">
+                            Professional development of application for iOS and Android.
+                        </p> 
+                    </div>
+                    <div class="skill">   
+                        <img src="assets/icons/camera.png" alt="" class="skill_image">  
+                        <h6 class="skill_title">
+                            Photography
+                        </h6>
+                        <p class="skill_text">
+                            I make high-quality photos of any category at a professional level.
+                        </p> 
+                    </div>
                 </div>
-            </div>
+            </main>
         </div>
     </div>
 </body>
